@@ -10,9 +10,6 @@ using namespace std;
 class Solution{
 public:
     bool ispalindrome(int i,int j,string str){
-        if(i == j){
-            return true;
-        }
         while(i < j){
             if(str[i] != str[j]){
                 return false;
